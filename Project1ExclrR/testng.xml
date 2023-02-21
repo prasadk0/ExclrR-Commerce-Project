@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     <class name="TextNG.DropDownSelectable"/>
+      <class name="TextNG.VerifyAddToCart"/>
+      <class name="TextNG.VeriflyLinkedINlink"/>
+     
+      <class name="TextNG.ErrorMessageDispalyed"/>
+      <class name="TextNG.SideBarCloseButton"/>
+      <class name="TextNG.VerifyTwiiterLink"/>
+      <class name="TextNG.VerifyBackToProducts"/>
+      <class name="TextNG.BrokenLinks"/>
+      <class name="TextNG.RemoveProductItems"/>
+      <class name="TextNG.VerifyCheckoutButton"/>
+      <class name="TextNG.VerifyTheExactCount"/>
+      <class name="TextNG.EachFormDetailsRequired"/>
+       <class name="TextNG.About"/>
+        <class name="TextNG.ContinueShopping"/>
+         <class name="TextNG.ErrorButtonClose"/>
+          <class name="TextNG.Login"/>
+           <class name="TextNG.Logout"/>
+            <class name="TextNG.SideBarCloseButton"/>
+             <class name="TextNG.VerifyBackToHome"/>
+              <class name="TextNG.verifyCancelOrder"/>
+               <class name="TextNG.verifyFBLink"/>
+                <class name="TextNG.verifyLogo"/>
+                 <class name="TextNG.VerifyFinish"/>
+                  <class name="TextNG.VerifyShowAllitems"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
